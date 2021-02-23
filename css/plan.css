@@ -1,0 +1,380 @@
+.header ul>li:nth-child(3) p{
+    border-bottom: 2px solid rgb(235, 141, 19);
+    box-sizing: border-box;
+}
+
+/* ----main---- */
+.main{
+    background-image: url(../img/plan/bg.png);
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover; */
+}
+
+
+/* ---title--- */
+.title{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    /* height: 200px; */
+    /* border: 2px solid black; */
+}
+
+.title h1{
+    text-align: center;
+    font-size: 3.6rem;
+    color: #885f57;
+    line-height: 200px;
+}
+
+
+/* ---top方案--- */
+.top_plan{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.top_plan ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_plan ul > li{
+    width: 496px;
+    flex-shrink: 0;
+    flex-grow: 1 ;
+    
+}
+
+.top_plan ul > li h2{
+    color:#885f57;
+    font-size: 3.6rem;
+    font-weight:bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.img{
+    display: block;
+    margin: 0 auto;
+    width: 496px;    
+}
+
+.top_plan ol{
+    margin-top: 70px;
+}
+
+.top_plan ol li{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.top_plan ol li p{
+    font-size: 2.4rem;
+    color: black;
+    margin-left: 70px;
+    margin-right: 100px;
+}
+
+.top_plan ol li a{
+    font-size: 1.8em;
+    border: 1px solid black;
+    padding: 5px 25px;
+}
+
+.top_plan ol li a:hover{
+    background-color: black;
+    color: #e1dcd9;
+}
+
+/* ---bottom方案--- */
+.bottom_plan{
+    display: flex;
+    padding-bottom: 115px;
+}
+
+.mobile_h2{
+    display: none;
+}
+
+.bottom_plan img{
+    width: 496px;
+    height: 334px;
+    margin-top: 20px;
+    margin-left: 52px;
+    margin-right: 52px;
+}
+
+.bottom_right{
+   margin-top: 45px;
+   width: 600px;
+}
+
+.bottom_right h2{
+    color:#885f57;
+    font-size: 3.6rem;
+    font-weight:bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.bottom_right ul li{
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.bottom_right li p{
+    font-size: 2.4rem;
+    color: black;
+    margin-left: 160px;
+    margin-right: 100px;
+}
+
+
+.bottom_right li a{
+    font-size: 1.8em;
+    border: 1px solid black;
+    padding: 5px 25px;
+}
+
+.bottom_right li a:hover{
+    background-color: black;
+    color: #e1dcd9;
+}
+@media screen and (max-width:1200px){
+    .top_plan ul > li{
+        width: 41.33vw;
+    }
+    .top_plan ul > li h2{
+        font-size: 3vw;
+    }
+    .img{
+        width: 41.33vw;    
+    }
+    .img img{
+        width: 41.33vw;    
+    }
+    .top_plan ol li p{
+        font-size: 2vw;
+        margin-left: 5.83vw;
+        margin-right: 8.33vw;
+    }
+    .top_plan ol li a{
+        font-size: 1.5vw;
+        padding: 5px 25px;
+    }
+    .bottom_plan img{
+        width: 41.33vw;  
+        height: 27.833vw;
+        margin-left: 4.33vw;
+        margin-right: 4.33vw;
+    }
+    .bottom_right{
+        width: 50vw;
+     }
+     .bottom_right h2{
+        font-size: 3vw;
+    }
+    .bottom_right li p{
+        font-size: 2vw;
+        margin-left: 13.33vw;
+        margin-right: 8.333vw;
+    }
+    .bottom_right li a{
+        font-size: 1.5vw;
+    }
+}
+@media screen and (max-width: 960px){
+    .main{
+        padding-left: 5vw;
+        padding-right: 5vw;
+        background-size: cover;
+        margin-top: 12vw;
+    }
+    .title{
+        margin: 0;
+        height: 16.67vw;
+    }
+    .title h1{
+        line-height: 16.67vw;
+        padding: 0;
+        margin: 0;
+        font-size: 6vw;
+        border-bottom: 2px solid rgb(128, 124, 124);
+    }
+    .top_plan{
+        margin: 0;
+        margin-top: 12vh;
+    }
+
+    .top_plan ul{
+        flex-direction: column;
+    }
+
+    .top_plan ul > li{
+        width: 85vw;
+        margin: 0 auto;
+        margin-bottom: 10vh;    
+    }
+    
+    .top_plan ul > li h2{
+        font-size: 6vw;
+        margin-bottom: 7vw;
+    }
+    
+    .img{
+        margin: 0 auto;
+        width: auto;
+    }
+    .top_plan img{
+        width: 85vw;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .top_plan ol{
+        margin-top: 5vw;
+    }
+    
+    .top_plan ol li{
+        margin: 0;
+        justify-content: space-between;
+        padding: 5vw 3vw;
+    }
+    
+    .top_plan ol li p{
+        font-size: 4vw;
+        margin: 0;
+        line-height: 7vw;
+    }
+    
+    .top_plan ol li a{
+        font-size: 3vw;
+        padding: 2vw 3vw; 
+    }
+    
+    /* ---bottom方案--- */
+    .bottom_plan{
+        flex-direction: column;
+        padding-bottom: 10vh;
+    }
+
+    .mobile_h2{
+        display: block;
+        color:#885f57;
+        font-weight:bold;
+        text-align: center;
+        font-size: 6vw;
+        margin-bottom: 7vw;
+    }
+
+    .bottom_plan img{
+        width: 85vw;
+        height:auto;
+        margin: 0;
+        margin-bottom: 5vw;
+    }
+
+    .bottom_right{
+        margin: 0;
+        width: auto;
+    }
+
+    .bottom_right h2{
+        display: none;
+    }
+
+    .bottom_right ul li{
+        margin: 0;
+        justify-content: space-between;
+        padding: 5vw 3vw;
+    }
+
+    .bottom_right li p{
+        font-size: 4vw;
+        margin: 0;
+        line-height: 7vw;
+    }
+
+
+    .bottom_right li a{
+        font-size: 3vw;
+        padding: 2vw 3vw;
+    }
+  
+}
+
+@media screen and (max-width: 428px){
+    .main{
+        margin-top: 17.78vw;
+    }
+    .title{
+        height: 26.67vw;
+    }
+    .title h1{
+        line-height: 26.67vw;
+        font-size: 10.67vw;
+    }
+    .top_plan ol{
+        margin-top: 8.89vw;
+    }
+    .top_plan{
+        margin: 0;
+        margin-top: 21.33vw;
+    }
+
+    .top_plan ul{
+        flex-direction: column;
+    }
+
+    .top_plan ul > li{
+        width: 85vw;
+        margin: 0 auto;
+        margin-bottom: 17.78vw;    
+    }
+    
+    .top_plan ul > li h2{
+        font-size: 10.67vw;
+        margin-bottom: 12.44vw;
+    }
+    
+    .top_plan ol li p{
+        font-size: 7.11vw;
+        line-height: 12.44vw;
+    }
+    
+    .top_plan ol li a{
+        font-size: 5.33vw;
+        padding: 3.56vw 3vw; 
+    }
+    
+
+    .mobile_h2{
+        font-size: 10.67vw;
+        margin-bottom: 12.44vw;
+    }
+    .bottom_plan img{
+        margin: 0;
+    }
+    .bottom_right ul{
+        margin-top: 8.89vw;
+    }
+
+    .bottom_right li p{
+        font-size: 7.11vw;
+        line-height: 12.44vw;
+    }
+
+
+    .bottom_right li a{
+        font-size: 5.33vw;
+        padding: 3.56vw 3vw;
+    }
+  
+}
+
+
+
+
+

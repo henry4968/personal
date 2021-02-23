@@ -1,0 +1,15 @@
+.title{
+    margin-top: 100px;
+    height: 200px;
+    /* border: 2px solid black; */
+}
+
+.title h1{
+    text-align: center;
+    font-size: 3.6rem;
+    color: #ee8d3f;
+    /* line-height: 200px; */
+    margin-bottom: 30px;
+    padding-top: 79px;
+    
+}

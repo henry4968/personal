@@ -1,0 +1,262 @@
+.header ul>li:nth-child(4) p{
+    border-bottom: 2px solid rgb(235, 141, 19);
+    box-sizing: border-box;
+}
+
+/* ---main--- */
+.main{
+    background-image: url(../img/information/inf_mainbg.png);
+    background-size: cover;
+    /* padding-top: 30px; */
+}
+
+/* ---title--- */
+.title{
+    /* background-image: url(../img/information/inf_titlebg.png); */
+    height: 200px;
+}
+
+.title h1{
+    text-align: center;
+    font-size: 3.6rem;
+    color: #885f57;
+    line-height: 200px;
+    margin-top: 100px;
+}
+
+
+
+/* ---title2--- */
+.title2{
+    margin-bottom: 100px;
+}
+.title2 h2{
+    text-align: center;
+    font-size: 3.6rem;
+    color: #885f57;
+}
+
+/* ---bread--- */
+.bread{
+    display: flex;
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+    margin-left: 85px;
+}
+
+.bread a{}
+
+.bread a:hover{
+    color:rgb(231, 122, 19);
+}
+
+.bread p{}
+
+/* ---content--- */
+.content{
+
+}
+
+.content ul{
+    width: 1200px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    
+}
+
+.content ul li{
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding-bottom: 150px;
+    margin: 0 auto;
+}
+
+/* .content ul li:nth-child(1):hover .tao_p{
+    display: block;
+}
+
+.content ul li:nth-child(2):hover .bud_p{
+    display: block;
+}
+
+.content ul li:nth-child(3):hover .chr_p{
+    display: block;
+}
+
+.content ul li:nth-child(4):hover .cath_p{
+    display: block;
+} */
+
+
+.content ul h3{
+    color: #885f57;
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.content ul img{
+    display: block;
+    margin: 0 auto;
+    transition: all .5s ease-out;
+}
+
+.content ul img:hover{
+    transform:scale(1.05,1.05);
+}
+
+
+.content ul a{
+    cursor: pointer;
+}
+
+.content .click_img{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.8rem;
+    line-height: 30px;
+}
+
+.inf_text{
+    margin: 0 auto;
+    width: 400px;
+    font-size: 1.8rem;
+    padding-top: 30px;
+    line-height: 36px;
+    color: #885f57 ;
+}
+@media screen and (max-width:1200px){
+    .title2 h2{
+        font-size: 3vw; 
+    }
+    .bread{
+        font-size: 1.5vw;
+        margin-left: 7.08vw;
+    }
+    .content ul{
+        width: 100%;
+    }
+    .content ul h3{
+        font-size: 2vw;
+        margin-left: 5.833vw;
+    }
+    .content ul img{
+        width: 41.667vw;
+    }
+    .content .click_img{
+        font-size: 1.5vw;
+    }
+    .inf_text{
+        width: 33.33vw;
+        font-size: 1.5vw;
+        line-height: 3vw;
+    }
+}
+@media screen and (max-width: 960px){
+    .main{
+        padding-left: 5vw;
+        padding-right: 5vw;
+        background-size: cover;
+        margin-top: 12vw;
+    }
+    .title{
+        margin: 0;
+        height: 16.67vw;
+    }
+    .title h1{
+        line-height: 16.67vw;
+        margin: 0;
+        font-size: 6vw;
+        border-bottom: 2px solid rgb(128, 124, 124);
+    }
+    .bread{
+        margin: 0 auto;
+        font-size: 3vw;
+        margin-bottom: 7vw;
+        margin-top: 3vw;
+    }
+
+    .title2{
+        margin-bottom: 7vh;
+    }
+    .title2 h2{
+        text-align: center;
+        font-size: 5.1vw;
+    }
+    .content ul{
+        width: auto;
+        flex-direction: column;
+    }
+    .content ul li{
+        padding-bottom: 15vh;
+    }
+    .content ul h3{
+        font-size: 4vw;
+        margin: 0;
+        margin-bottom: 5vh;
+    }
+    .content ul img{
+        width: 85vw;
+        margin: 0 auto;
+    }
+    .content .click_img{
+        margin: 0;
+        line-height: 7vw;
+        font-size: 3vw;
+    }
+    .inf_text{
+        width: auto;
+        font-size: 4vw;
+        padding: 0;
+        line-height: 7vw;
+    }
+}
+
+@media screen and (max-width: 428px){
+    .main{
+        margin-top: 17.78vw;
+    }
+    .title{
+        height: 26.67vw;
+    }
+    .title h1{
+        line-height: 26.67vw;
+        font-size: 10.67vw;
+    }
+    .bread{
+        font-size: 5.33vw;
+        margin-bottom: 12.44vw;
+        margin-top: 5.33vw;
+    }
+
+    .title2 h2{
+        font-size: 7.11vw;
+    }
+
+    .content ul h3{
+        font-size: 7.11vw;
+    }
+    .content .click_img{
+        line-height: 12.44vw;
+        font-size: 5.33vw;
+    }
+    .inf_text{
+        font-size: 7.11vw;
+        line-height: 12.44vw;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+

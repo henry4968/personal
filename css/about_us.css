@@ -1,0 +1,404 @@
+.header ul>li:nth-child(1) p{
+    border-bottom: 2px solid rgb(235, 141, 19);
+    box-sizing: border-box;
+}
+
+
+/* ---title--- */
+.title{
+    margin-top: 100px;
+    height: 200px;
+    background-image: url(../img/about_us/title_bg.png);
+}
+
+.title h1{
+    text-align: center;
+    font-size: 3.6rem;
+    color: #885f57;
+    line-height: 200px;
+}
+
+
+
+.main{
+    padding-left: 72px;
+    padding-right: 72px;
+}
+/* ---ceo--- */
+.ceo{
+    display: flex;
+    background-image: url(../img/about_us/ceobg.png);
+}
+
+.ceo img{
+    margin: 25px 30px 30px 60px;
+}
+
+.ceo_text{
+    /* margin-left: 85px; */
+    margin-top: 50px;
+}
+
+.ceo_text h2{
+    color: #885f57;
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+}
+
+.ceo_text p{
+    color: black;
+    font-size: 1.8rem;
+    line-height: 36px;
+}
+
+/* ---text1--- */
+.text1{
+    display: flex;
+    padding-bottom: 70px;
+    background-image: url(../img/about_us/ceobg.png);
+}
+
+.text1 .mobile_h2{
+    display: none;
+}
+
+.text1 img{
+    /* margin-left: 85px; */
+    margin-top: 35px;
+    width: 292px;
+    height: 390px;
+}
+
+.tex1_text{
+  /* margin-right: 60px; */
+  margin-left: 40px;
+  margin-top: 70px;
+}
+
+.tex1_text h2{
+    color: #885f57;
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+}
+
+.tex1_text p{
+    color: black;
+    font-size: 1.8rem;
+    line-height: 36px;
+    margin-bottom: 30px;
+}
+
+.tex1_text span{
+    color: #885f57;
+    font-size: 2.4rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* ---text2--- */
+.text2{
+    display: flex;
+    background-image: url(../img/about_us/ceobg.png);
+}
+.text2 .mobile_h2{
+    display: none;
+}
+.text2 img{
+    /* margin-right: 60px; */
+    margin-left: 40px;
+    margin-bottom: 85px;
+}
+
+.text2_text{
+    /* margin-left: 85px; */
+    margin-top: 10px;
+}
+
+.text2 h2{
+    color: #885f57;
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+}
+
+.text2 p{
+    color: black;
+    font-size: 1.8rem;
+    line-height: 36px;
+}
+
+
+
+/* ---text3---*/
+.text3{
+    display: flex;
+    padding-bottom: 60px;
+    background-image: url(../img/about_us/ceobg.png);
+}
+
+.text3 img{
+    margin-right: 40px;
+}
+
+.text3 p{
+    color: black;
+    font-size: 1.8rem;
+    line-height: 36px;
+    margin-top: 35px;
+}
+@media screen and (max-width:1200px){
+    .main{
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+    .ceo img{
+        margin-right: 2.5vw;
+        margin-left: 5vw;
+        width: 16.08vw;
+    }
+    .ceo_text h2{
+        font-size: 2vw;
+    }
+    .ceo_text p{
+        font-size: 1.5vw;
+        line-height: 3vw;
+    }
+    .text1 img{
+        width: 24.33vw;
+        height: 32.5vw;
+    }
+    .tex1_text{
+        margin-left: 3.33vw;
+      }
+    .tex1_text p{
+        font-size: 1.5vw;
+        line-height: 3vw;
+    }
+    .tex1_text span{
+        font-size: 2vw;
+    }
+    .text2 img{
+        margin-left: 3.33vw;
+        width: 41.16vw;
+    }
+    .text2 h2{
+        font-size: 2vw;
+    }
+    .text2 p{
+        font-size: 1.5vw;
+        line-height: 3vw;
+    }
+    .text3 img{
+        margin-right: 3.33vw;
+        width: 38vw;
+    }
+    .text3 p{
+        font-size: 1.5vw;
+        line-height: 3vw;
+}
+
+@media screen and (max-width: 960px){
+    .title{
+        margin-top: 12vw;
+        height: 16.67vw;
+    }
+    .title h1{
+        line-height: 16.67vw;
+        font-size: 6vw;
+        border-bottom: 2px solid rgb(128, 124, 124);
+    }
+    .main{
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    /* ---ceo--- */
+    .ceo{
+        flex-direction: column;
+        margin-bottom: 10vh;
+        margin-top: 3vh;
+    }
+    .ceo img{
+        display: block;
+        margin: 0 auto;
+        width: 30vw;
+        margin-bottom: 3vh;
+    }
+    
+    .ceo_text{
+        margin: 0;
+        order: 1;
+    }
+    
+    .ceo_text h2{
+        text-align: center;
+        font-size: 5.1vw;
+        line-height: 9vw;
+        margin: 0;
+        margin-bottom: 3vh;
+    }
+    
+    .ceo_text p{
+        font-size: 4vw;
+        line-height: 7vw;
+    }
+
+    /* ---text1--- */
+    .text1{
+        flex-direction: column;
+    }
+    .text1 .mobile_h2{
+        color: #885f57;
+        display: block;
+        font-size: 5.1vw;
+        line-height: 9vw;
+        margin-bottom: 5vw;
+    }
+    .text1 img{
+        margin: 0 auto;
+        width: 65vw;
+        height: auto;
+        margin-bottom: 5vw;
+    }
+
+    .tex1_text{
+        margin: 0;
+    }
+
+    .tex1_text h2{
+        display: none;
+    }
+
+    .tex1_text p{
+        margin: 0;
+        margin-bottom: 3vw;
+        font-size: 4vw;
+        line-height: 7vw;
+    }
+
+    .tex1_text span{
+        margin: 0;
+        font-size: 4vw;
+    }
+
+    /* ---text2--- */
+    .text2{
+        flex-direction: column;
+    }
+    .text2 .mobile_h2{
+        display: block;
+        color: #885f57;
+        margin: 0;
+        font-size: 5.1vw;
+        line-height: 9vw;
+        margin-bottom: 5vw;
+    }
+    .text2 img{
+        margin: 0 auto;
+        width: 80vw;
+        margin-bottom: 5vw;
+    }
+
+    .text2_text{
+        margin: 0;
+        order: 1;
+    }
+
+    .text2 h2{
+        display: none;
+    }
+
+    .text2 p{
+        font-size: 4vw;
+        line-height: 7vw;
+    }
+    /* ---text3---*/
+    .text3{
+        flex-direction: column;
+        padding: 0;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+
+    .text3 img{
+        margin: 0 auto;
+        width: 80vw;
+        height: auto;
+    }
+
+    .text3 p{
+        font-size: 4vw;
+        line-height: 7vw;
+        margin-top: 5vw;
+    }    
+
+}
+
+@media screen and (max-width: 428px){
+    .title{
+        margin-top: 17.78vw;
+        height: 26.67vw;
+    }
+    .title h1{
+        line-height: 26.67vw;
+        font-size: 10.67vw;
+    }
+
+
+    .ceo img{
+        width: 40vw;
+    }
+    .ceo_text h2{
+        font-size: 7.11vw;
+        line-height: 12.44vw;
+    }
+    .ceo_text p{
+        font-size: 6.22vw;
+        line-height: 12.44vw;
+    }
+
+    .text1{
+        padding-bottom: 0;
+    }
+    .text1 .mobile_h2{
+        font-size: 7.11vw;
+        line-height: 12.44vw;
+    }
+    .tex1_text p{
+        margin-bottom: 5.33vw;
+        font-size: 6.22vw;
+        line-height: 12.44vw;
+    }
+    .tex1_text span{
+        font-size: 6.22vw;
+    }
+
+
+    .text2 .mobile_h2{
+        font-size: 7.11vw;
+        line-height: 12.44vw;
+        margin-top: 8.89vw;
+    }
+    .text2 p{
+        font-size: 6.22vw;
+        line-height: 12.44vw;
+    }
+
+    .text3{
+        padding-top: 17.78vw;;
+        padding-bottom: 17.78vw;
+    }
+    .text3 p{
+        font-size: 6.22vw;
+        line-height: 12.44vw;
+    }    
+
+}
+
+
+
+
+
+
+
+
+
